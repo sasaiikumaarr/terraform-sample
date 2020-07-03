@@ -18,6 +18,6 @@ module "sftp" {
 */
 
 module "launch-ec2" {
-    source = "/home/sasi/TerraForm/terraform-scripts/modules/ec2"
+    source = "./modules/ec2"
     
 }
